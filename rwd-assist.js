@@ -15,17 +15,18 @@ $(document).ready(function(){
 	});
 
 	$('#rwd-assist #assist-size').css({
-		'margin' : '0 10px 0 0',
+		'margin' : '4px 10px 0 0',
 		'padding' : '0',
 		'color' : '#545454',
-		'font-size' : '12px',
+		'font-size' : '11px',
 		'font-family' : 'sans-serif',
-		'font-weight': 'bold'
+		'font-weight': 'bold',
+		'display': 'inline-block'
 	});
 
 
 	$(window).resize(function(){
-		$('#rwd-assist #assist-size').html($(window).width()+"w x "+$(window).height()+"h");
+		$('#rwd-assist #assist-size').html($(window).width()+"W x "+$(window).height()+"H");
 	});
 
 	$('#rwd-assist .assist-ss').change(function(){
