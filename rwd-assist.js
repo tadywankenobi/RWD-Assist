@@ -18,7 +18,7 @@ $(document).ready(function(){
 		'margin' : '0 10px 0 0',
 		'padding' : '0',
 		'color' : '#545454',
-		'font-size' : '0.8em',
+		'font-size' : '12px',
 		'font-family' : 'sans-serif',
 		'font-weight': 'bold'
 	});
