@@ -1,6 +1,6 @@
 This is a simple JS tool to assist you in your responsive web designs.
 
-Include the script in the header of your page (requires <a href="http://www.jquery.com">jQuery</a>, not included):
+Include the script in the header of your page (requires jQuery [http://www.jquery.com], not included):
 
 http://rwd-assist.googlecode.com/files/rwd-assist.js
 
