@@ -2,7 +2,7 @@ This is a simple JS tool to assist you in your responsive web designs.
 
 Include the script in the header of your page (requires jQuery [http://www.jquery.com], not included):
 
-http://rwd-assist.googlecode.com/files/rwd-assist.js
+<script src="http://rwd-assist.googlecode.com/files/rwd-assist.js"></script>
 
 Load your page in the browser and on the top right, you'll find a dropdown menu to allow you resize your screen widths.
 
