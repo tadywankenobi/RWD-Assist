@@ -1,0 +1,11 @@
+This is a simple JS tool to assist you in your responsive web designs.
+
+Include the script in the top of your page (requires jQuery, not included).
+
+Load your page in the browser and on the top right, you'll find a dropdown menu to allow you resize your screen widths.
+
+Handy for when you want to see what a site will look like at an exact width. You can still resize the window manually after that, and get feedback in the field before the dropdown.
+
+FYI: Chrome and Opera don't support the JS resizeTo function so the resize functionality won't work in those browsers. They do support the feedback field though, so you can use that as a fallback for them.
+
+Enjoy!
