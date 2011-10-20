@@ -16,12 +16,13 @@ $(document).ready(function(){
 
 	$('#rwd-assist #assist-size').css({
 		'margin' : '4px 10px 0 0',
-		'padding' : '2px 0 0 0',
+		'padding' : '0',
 		'color' : '#545454',
 		'font-size' : '11px',
 		'font-family' : 'sans-serif',
 		'font-weight': 'bold',
-		'display': 'inline-block'
+		'display': 'inline-block',
+		'float':'left'
 	});
 
 
