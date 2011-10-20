@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$('body').append('<span id="rwd-assist"><span id="assist-size"></span><select class="assist-ss"><option value="-1">None</option><option>320</option><option>480</option><option>600</option><option>800</option><option>860</option><option>960</option><option>1024</option><option>1280</option><option>1300</option><option>1600</option><option>1800</option></select></span>');
 
-	$('#rwd-assist #assist-size').html($(window).width()+"w x "$(window).height()+"h");
+	$('#rwd-assist #assist-size').html($(window).width()+"w x "+$(window).height()+"h");
 
 	$('#rwd-assist').css({
 		'margin' : '0',
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 
 	$(window).resize(function(){
-		$('#rwd-assist #assist-size').html($(window).width()+"w x "$(window).height()+"h");
+		$('#rwd-assist #assist-size').html($(window).width()+"w x "+$(window).height()+"h");
 	});
 
 	$('#rwd-assist .assist-ss').change(function(){
